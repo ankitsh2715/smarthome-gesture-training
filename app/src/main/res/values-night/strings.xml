@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="choose_gesture">Choose which gesture to practice</string>
+    <string name="proceed">Proceed</string>
+    <string name="Upload">Upload</string>
+</resources>

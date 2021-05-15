@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/empty_view1"
+        android:text="@string/choose_gesture"
+        android:textSize="@dimen/text_size" />
+
+    <View
+        android:id="@+id/empty_view1"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@id/gesture_spinner" />
+
+    <Spinner
+        android:id="@+id/gesture_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_margin="@dimen/margin_button"
+        android:layout_centerInParent="true" />
+
+    <View
+        android:id="@+id/empty_view2"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/gesture_spinner" />
+
+    <Button
+        android:id="@+id/proceed_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/proceed"
+        android:textSize="@dimen/text_size"
+        android:padding="@dimen/margin_button"
+        android:layout_below="@id/empty_view2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

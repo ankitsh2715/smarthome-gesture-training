@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">SmartHome Gesture Training</string>
+    <string name="choose_gesture">Choose which gesture to practice</string>
+    <string name="proceed">Proceed</string>
+    <string name="back">Back</string>
+    <string name="Practice">Practice</string>
+    <string name="Upload">Upload</string>
+
+    <string-array name="symptoms_array">
+        <item>Turn On Light</item>
+        <item>Turn Off Light</item>
+        <item>Turn On Fan</item>
+        <item>Turn Off Fan</item>
+        <item>Increase Fan Speed</item>
+        <item>Decrease Fan Speed</item>
+        <item>Set Thermostat</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+</resources>
